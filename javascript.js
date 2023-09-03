@@ -140,7 +140,7 @@ function Triangle(verts){
 
 // standard global variables
 var container, scene, camera, renderer, controls, stats;
-//var keyboard = new THREEx.KeyboardState();
+var keyboard = new THREEx.KeyboardState();
 var clock = new THREE.Clock();
 
 // custom global variables
