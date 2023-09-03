@@ -1,12 +1,16 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>WebGL Demo</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/gl-matrix@2.4.0/dist/gl-matrix.js"></script>
     <script src="javascript.js"></script>
-  </head>
-
-  <body>
-    <canvas id="glcanvas" width="640" height="480"></canvas>
-  </body>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body onload="main()">
+    <canvas id="gl-canvas" width="400" height="400"></canvas>
+    <br>
+    <label for="subdivision-level">Subdivision Level: </label>
+    <input type="range" id="subdivision-level" name="subdivision-level" min="0" max="5" value="0">
+</body>
 </html>
