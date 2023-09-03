@@ -140,7 +140,7 @@ function Triangle(verts){
 
 // standard global variables
 var container, scene, camera, renderer, controls, stats;
-var keyboard = new THREEx.KeyboardState();
+//var keyboard = new THREEx.KeyboardState();
 var clock = new THREE.Clock();
 
 // custom global variables
@@ -207,9 +207,9 @@ function init()
 	////////////
 
 	// automatically resize renderer
-	THREEx.WindowResize(renderer, camera);
+	//THREEx.WindowResize(renderer, camera);
 	// toggle full-screen on given key press
-	THREEx.FullScreen.bindKey({ charCode : 'm'.charCodeAt(0) });
+	//THREEx.FullScreen.bindKey({ charCode : 'm'.charCodeAt(0) });
 	
 	//////////////
 	// CONTROLS //
