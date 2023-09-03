@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="javascript.js"></script>
+    <style>
+        canvas { border: 1px solid black; }
+    </style>
+</head>
+<body onload="main()">
+    <canvas id="gl-canvas" width="400" height="400"></canvas>
+    <br>
+    <label for="subdivision-level">Subdivision Level: </label>
+    <input type="range" id="subdivision-level" name="subdivision-level" min="0" max="5" value="0">
+</body>
+</html>
+
 <div class="controls">
   <button onclick='nextSplit()'>split</button><br>
   <label id="faces">faces: 60</label>
